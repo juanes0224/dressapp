@@ -1,0 +1,31 @@
+[
+  {"nombre": "Camiseta blanca basica", "categoria": "superior", "subtipo": "camiseta", "color_principal": "#ffffff", "color_nombre": "blanco", "fit": "slim", "formalidad": 1, "abrigo": 1, "eventos_aptos": ["casual", "nocturno"]},
+  {"nombre": "Camisa azul marino", "categoria": "superior", "subtipo": "camisa", "color_principal": "#1b2a4a", "color_nombre": "azul_marino", "fit": "regular", "formalidad": 4, "abrigo": 2, "eventos_aptos": ["medio_formal", "muy_formal"]},
+  {"nombre": "Polo negro", "categoria": "superior", "subtipo": "polo", "color_principal": "#111111", "color_nombre": "negro", "fit": "regular", "formalidad": 3, "abrigo": 1, "eventos_aptos": ["casual", "medio_formal"]},
+  {"nombre": "Buzo gris", "categoria": "superior", "subtipo": "buzo", "color_principal": "#808080", "color_nombre": "gris", "fit": "baggy", "formalidad": 2, "abrigo": 3, "eventos_aptos": ["casual"]},
+  {"nombre": "Blusa beige", "categoria": "superior", "subtipo": "blusa", "color_principal": "#e8dcc5", "color_nombre": "beige", "fit": "slim", "formalidad": 4, "abrigo": 1, "eventos_aptos": ["medio_formal", "muy_formal"]},
+  {"nombre": "Camiseta negra grafica", "categoria": "superior", "subtipo": "camiseta", "color_principal": "#0d0d0d", "color_nombre": "negro", "fit": "regular", "formalidad": 1, "abrigo": 1, "eventos_aptos": ["casual", "nocturno", "discoteca"]},
+
+  {"nombre": "Chaqueta de cuero negra", "categoria": "exterior", "subtipo": "chaqueta", "color_principal": "#000000", "color_nombre": "negro", "fit": "regular", "formalidad": 2, "abrigo": 3, "eventos_aptos": ["casual", "nocturno", "discoteca"]},
+  {"nombre": "Blazer azul marino", "categoria": "exterior", "subtipo": "blazer", "color_principal": "#1c2541", "color_nombre": "azul_marino", "fit": "slim", "formalidad": 5, "abrigo": 2, "eventos_aptos": ["muy_formal", "medio_formal"]},
+  {"nombre": "Abrigo gris largo", "categoria": "exterior", "subtipo": "abrigo", "color_principal": "#6e6e6e", "color_nombre": "gris", "fit": "regular", "formalidad": 4, "abrigo": 5, "eventos_aptos": ["muy_formal", "medio_formal"]},
+  {"nombre": "Chaleco beige", "categoria": "exterior", "subtipo": "chaleco", "color_principal": "#d9c9a3", "color_nombre": "beige", "fit": "regular", "formalidad": 3, "abrigo": 2, "eventos_aptos": ["casual", "medio_formal"]},
+
+  {"nombre": "Jean azul clasico", "categoria": "inferior", "subtipo": "jean", "color_principal": "#3b5998", "color_nombre": "azul", "fit": "slim", "formalidad": 2, "abrigo": 2, "eventos_aptos": ["casual", "nocturno"]},
+  {"nombre": "Pantalon negro de vestir", "categoria": "inferior", "subtipo": "pantalon", "color_principal": "#0a0a0a", "color_nombre": "negro", "fit": "regular", "formalidad": 5, "abrigo": 2, "eventos_aptos": ["muy_formal", "medio_formal"]},
+  {"nombre": "Sudadera gris jogger", "categoria": "inferior", "subtipo": "sudadera", "color_principal": "#9a9a9a", "color_nombre": "gris", "fit": "baggy", "formalidad": 1, "abrigo": 3, "eventos_aptos": ["casual"]},
+  {"nombre": "Short beige", "categoria": "inferior", "subtipo": "short", "color_principal": "#e0d2b0", "color_nombre": "beige", "fit": "regular", "formalidad": 1, "abrigo": 1, "eventos_aptos": ["casual"]},
+  {"nombre": "Falda negra", "categoria": "inferior", "subtipo": "falda", "color_principal": "#121212", "color_nombre": "negro", "fit": "slim", "formalidad": 4, "abrigo": 1, "eventos_aptos": ["medio_formal", "nocturno"]},
+  {"nombre": "Jean negro skinny", "categoria": "inferior", "subtipo": "jean", "color_principal": "#1a1a1a", "color_nombre": "negro", "fit": "slim", "formalidad": 2, "abrigo": 2, "eventos_aptos": ["casual", "nocturno", "discoteca"]},
+
+  {"nombre": "Tenis blancos", "categoria": "calzado", "subtipo": "tenis", "color_principal": "#f5f5f5", "color_nombre": "blanco", "fit": "regular", "formalidad": 1, "abrigo": 1, "eventos_aptos": ["casual"]},
+  {"nombre": "Zapato formal negro", "categoria": "calzado", "subtipo": "zapato_formal", "color_principal": "#050505", "color_nombre": "negro", "fit": "regular", "formalidad": 5, "abrigo": 1, "eventos_aptos": ["muy_formal", "medio_formal"]},
+  {"nombre": "Bota cafe", "categoria": "calzado", "subtipo": "bota", "color_principal": "#5a3825", "color_nombre": "cafe", "fit": "baggy", "formalidad": 3, "abrigo": 4, "eventos_aptos": ["casual", "medio_formal"]},
+  {"nombre": "Sandalia beige", "categoria": "calzado", "subtipo": "sandalia", "color_principal": "#d6c7a1", "color_nombre": "beige", "fit": "regular", "formalidad": 1, "abrigo": 1, "eventos_aptos": ["casual"]},
+  {"nombre": "Tenis negros urbanos", "categoria": "calzado", "subtipo": "tenis", "color_principal": "#1b1b1b", "color_nombre": "negro", "fit": "regular", "formalidad": 2, "abrigo": 1, "eventos_aptos": ["casual", "nocturno", "discoteca"]},
+
+  {"nombre": "Reloj plateado", "categoria": "accesorio", "subtipo": "reloj", "color_principal": "#c0c0c0", "color_nombre": "gris", "fit": "regular", "formalidad": 4, "abrigo": 1, "eventos_aptos": ["medio_formal", "muy_formal"]},
+  {"nombre": "Gorra negra", "categoria": "accesorio", "subtipo": "gorra", "color_principal": "#0f0f0f", "color_nombre": "negro", "fit": "regular", "formalidad": 1, "abrigo": 1, "eventos_aptos": ["casual"]},
+  {"nombre": "Cinturon cafe", "categoria": "accesorio", "subtipo": "cinturon", "color_principal": "#4a2e1d", "color_nombre": "cafe", "fit": "regular", "formalidad": 3, "abrigo": 1, "eventos_aptos": ["medio_formal", "casual"]},
+  {"nombre": "Collar dorado", "categoria": "accesorio", "subtipo": "collar", "color_principal": "#d4af37", "color_nombre": "dorado", "fit": "regular", "formalidad": 3, "abrigo": 1, "eventos_aptos": ["nocturno", "discoteca"]}
+]
