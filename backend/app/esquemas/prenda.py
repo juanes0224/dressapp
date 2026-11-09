@@ -5,9 +5,11 @@ from datetime import datetime
 
 from pydantic import BaseModel, field_validator, model_validator
 
-from app.modelos.enums import CATEGORIAS_SUBTIPOS, Categoria, Evento, Fit, OrigenClasificacion
+from app.estructuras.arbol_categorias import ArbolCategorias
+from app.modelos.enums import Categoria, Evento, Fit, OrigenClasificacion
 
 _PATRON_HEX = re.compile(r"^#[0-9A-Fa-f]{6}$")
+_ARBOL_CATEGORIAS = ArbolCategorias()
 
 
 class _ValidacionesPrenda(BaseModel):
@@ -39,12 +41,11 @@ class _ValidacionesPrenda(BaseModel):
 
     @model_validator(mode="after")
     def _validar_subtipo_coherente(self) -> "_ValidacionesPrenda":
-        # TODO(Etapa 2): reemplazar por ArbolCategorias.es_subtipo_de (app.estructuras)
-        subtipos_validos = CATEGORIAS_SUBTIPOS[self.categoria]
-        if self.subtipo not in subtipos_validos:
+        if not _ARBOL_CATEGORIAS.es_subtipo_de(self.subtipo, self.categoria):
+            opciones = _ARBOL_CATEGORIAS.subtipos(self.categoria)
             raise ValueError(
                 f"subtipo {self.subtipo!r} no pertenece a la categoria {self.categoria.value!r}; "
-                f"opciones validas: {subtipos_validos}"
+                f"opciones validas: {opciones}"
             )
         return self
 
